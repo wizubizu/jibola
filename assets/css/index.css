@@ -670,19 +670,32 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.about {
-    /* The image used */
-    background-image: url("../img/bd.webp");
-    /* Set a specific height */
-    min-height: 100% !important; 
+    }
+    .about {
+        /* The image used */
+        background-image: url("../img/bd.webp");
+        /* Set a specific height */
+        min-height: 100% !important; 
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .tour {
+        /* The image used */
+        background-image: url("../img/tour1S.jpg");
+        /* Set a specific height */
+        min-height: 100% !important; 
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
 
 
