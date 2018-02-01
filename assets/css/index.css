@@ -112,6 +112,8 @@
 	background-image:url(../img/about.png) !important;
 }*/
 
+.mdis-none {display:none !important;}
+
 .bg-m{
 	background-image: linear-gradient(135deg, rgba(10, 10, 10, 0.6) -10%, rgba(10, 10, 10, 0.6) 135%),url(../img/tabe.png);
 	background-size: cover;
@@ -250,7 +252,7 @@
   border-radius: 23px 23px 23px 23px;
   height: 30px;
   width : 30px;
-  margin-top: 15%;
+  margin-top: 6%;
 }
 /* Next button  */
 .media-carousel .carousel-control.right 
@@ -262,7 +264,7 @@
   border-radius: 23px 23px 23px 23px;
   height: 30px;
   width : 30px;
-  margin-top: 15%;
+  margin-top: 6%;
 }
 /* Changes the position of the indicators */
 .media-carousel .carousel-indicators 
@@ -283,8 +285,8 @@
 }
 .media-carousel img
 {
-  width: 100px;
-  height: 100px
+  width: 100%;
+  height: 200px;
 }
 /*locate*/
 
@@ -533,6 +535,9 @@
     .tm-t-40{margin-top:40px !important;}
     .tm-t-10p{margin-top:10%!important;}
     
+    .th-117 {
+        height: 117px !important;
+    }
     .th-130 {
         height: 130px !important;
     }
