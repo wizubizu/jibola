@@ -60,63 +60,81 @@
         <section>
           <div class="tour">
             <div class="container">
-                <p class="f-40 w-900 l-h mf-30  m-t-10p tp-b-10p text-center"> EVENT</p>
+                <p class="f-40 w-900 l-h mf-30  m-t-10p tp-b-10p text-center"> CONTACT</p>
               </div>
             </div>
           </div>
-          <h1 class="text-center m-t-5p mf-20"><span class="">Upcoming Shows</span> / Local Dates</h1>
+          <div class=" m-t-5p">
+          <div class=" container mc-ta">
+            <h2 class="w-600 f21">Contact</h2>
+            <div class="row">
+              <div class="col-md-6 col-sm-6">
 
-            <div class="container m-t-5p">
-              <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-10">
-                  <div class="row m-t-5p">
-                    <div class="col-md-2 col-sm-2 mc-ta">
-                      <p class="f-40">14<sub class="f-20">Feb</sub></p>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-6 mm-t-10p">
-                      <p class="w-900">The Venue</p>
-                    </div>
-                    <div class="col-md-4 col-sm-3 col-xs-6 mm-t-10p">
-                      <p class="mc-ta">Okemolete, IB</p>
-                    </div>
-                    <div class="col-md-2 col-sm-3 mc-ta">
-                      <a href="#"  type="button" class="bs btn btn-default bg-trans hvr-sweep-to-right">RSVP</a>
-                      <a href="#"  type="button" class="bs btn btn-default bg-trans hvr-sweep-to-right">Ticket</a>
-                    </div>
-                  </div>
+                <div>
+                  <p>Contact us and we'll get back to you within 24 hours.</p>
+                      <!-- <p><span class="glyphicon glyphicon-map-marker"></span> 93 Obafemi Awolowo Way Ikeja Lagos</p> -->
+                      <p><span class="glyphicon glyphicon-phone"></span> +234 703 4634 506</p>
+                      <p><span class="glyphicon glyphicon-phone"></span> +234 701 360 067</p>
+                      <p><span class="glyphicon glyphicon-envelope"></span> donnjibsai@gmail.com</p>
+                      <p><span class="glyphicon glyphicon-home"></span> 1, Jacob Oladoja Street, Akingbile, off Moniya Oyo Road, Ibadan</p>
+                </div>
 
-                  <hr>
-                    
-                  <div class="row m-t-5p">
-                    <div class="col-md-2 col-sm-2 mc-ta">
-                      <p class="f-40">16<sub class="f-20">July</sub></p>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-6 mm-t-10p">
-                      <p class="w-900">The Venue</p>
-                    </div>
-                    <div class="col-md-4 col-sm-3 col-xs-6 mm-t-10p">
-                      <p class="mc-ta">Idekan, IB</p>
-                    </div>
-                    <div class="col-md-2 col-sm-3 mc-ta">
-                      <a href="#"  type="button" class="bs btn btn-default bg-trans hvr-sweep-to-right">RSVP</a>
-                      <a href="#"  type="button" class="bs btn btn-default bg-trans hvr-sweep-to-right">Ticket</a>
-                    </div>
-                  </div>
-  
-                  </div>
-                <div class="col-md-1"></div>
+                <!-- Add Google Maps -->
+                <div id="googleMap" style="height:400px;width:100%;"></div>
+                <script>
+                function myMap() {
+                var myCenter = new google.maps.LatLng(7.511959, 3.900317);
+                var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+                var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+                var marker = new google.maps.Marker({position:myCenter});
+                marker.setMap(map);
+                }
+                </script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB63Rxydh3k1S6TOUsOH11cF4OmVyMf27A&callback=myMap"></script>
+                <!--
+                To use this code on your website, get a free API key from Google.
+                Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+                -->
               </div>
-             
-            </div>
+              <div class="col-md-6 col-sm-6 mm-t-5p tm-t-5p">
+                <!-- <div class="mp-l-0 social">
+                  <a class="m-r-10" href="#"><i class="fa fa-lg fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-lg fa-twitter"></i></a>
+                </div> -->
 
-            <!-- <div>
-               <a class="twitter-timeline" href="https://twitter.com/hashtag/10kChallenge" data-widget-id="938520459125182464">#MyVoice Tweets</a>
-                <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
-            </div> -->
+                <form action="" method="POST" role="form">
+                  <div class="form-group">
+                    <label for="">Full Name</label>
+                    <input type="text" class="form-control" id="" placeholder="" required="">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Email</label>
+                    <input type="email" class="form-control" id="" placeholder="" required="">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Phone Number</label>
+                    <input type="text" class="form-control" id="" placeholder="" required="">
+                  </div>
+                  <div class="form-group">
+                    <label for="">Mesaage</label>
+                    <textarea name="" id="input" class="form-control" rows="10" required=""></textarea>
+                  </div>
+
+                  <!-- <a href="music.html"  type="button" class="bs btn btn-default bg-trans hvr-sweep-to-right">More Music</a> -->
+                
+                  
+                
+                  <button type="submit" class="bs btn btn-default bg-trans hvr-sweep-to-right m-t-5p m-b-5p width-150">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
         </section>
 
-        <footer class="m-t-5p"> 
+
+        
+            <footer class="m-t-5p"> 
           <div class="container">
             <p class=""> &copy;2018 by Abimbola&nbsp;</p>
           </div>
