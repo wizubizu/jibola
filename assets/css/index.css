@@ -1,4 +1,4 @@
-@font-face{
+ @font-face{
 	font-family: 'Avenir';
 	src: url('../../Avenir/AvenirLTStd-Book.otf');
 	src: url('../../Avenir/AvenirLTStd-Light.otf');
@@ -587,6 +587,7 @@
     .tm-t-10p{margin-top:10% !important;}
 
     .tf-13{font-size:13px !important;}
+    .tf-18{font-size:18px !important;}
     .tf-20{font-size:20px !important;}
     .tf-25{font-size:25px !important;}
 
