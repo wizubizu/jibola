@@ -168,6 +168,7 @@ select:focus {
 .m-l-13 {margin-left:13px !important;}
 .m-l-15 {margin-left:15px !important;}
 .m-l-20 {margin-left:20px !important;}
+.m-l-27 {margin-left:27px !important;}
 .m-l-30 {margin-left:30px !important;}
 .m-l-40 {margin-left:40px !important;}
 .m-l-50 {margin-left:50px !important;}
@@ -552,7 +553,8 @@ select:focus {
 
 /****  Border Colors  ****/
 .no-bd{ border:none !important;box-shadow:none; }
-.bd-brand-brown{ border:5px solid #A66429 }
+.bd-brand-brown{ border: 2px solid #A66429;
+    margin-top: 0px; }
 .bd-brand{ border:1px solid #cdcdcd }
 .bd-brand-1{ border:2px solid #FFBA1B; }
 .bd-white{ border:3px solid #FFFFFF !important; }
@@ -883,18 +885,16 @@ i#closebtn {
 }
 
 /*THIS NEED TO BE DELETED IF YOUR TABLE LINE ARE NOT SHOWING*/
-.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+/*.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
     padding: 8px;
     line-height: 1.42857143;
     vertical-align: top;
-    /* border-top: 1px solid #ddd; */
     border-top: none ;
 }
 
 .table>thead>tr>th {
     vertical-align: bottom;
-    /* border-bottom: 2px solid #ddd; */
     border-bottom: none ;
-}
+}*/
 
 
