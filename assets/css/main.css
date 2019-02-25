@@ -13,6 +13,7 @@ body {
 	font-weight: normal;
 	overflow-x: hidden;
 	line-height: 20px;
+  background: #6f6f6f;
 }
 
 
@@ -270,11 +271,12 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   margin-top: 5%;
     font-size: 30px;
     font-weight: 600;
+    color: #ffffff;
 }
 
 .__voteget{
   border-radius: 4px;
-    background-color: #ff5252;
+    background-color: #36bdff ;
     color: #ffffff !important;
     margin-top: 4%;
     line-height: 1.56;
@@ -324,6 +326,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     border: 1px solid #E1E1E1;
     border-radius: 5px;
     background: #FFF;
+    margin-top: 10px;
 }
 .col-item .photo img
 {
@@ -1100,6 +1103,35 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 /*end*/
 
+.__eventcard{
+  box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.16);
+    background: #ffffff;
+    padding: 20px;
+    border-radius:4px;
+}
+
+.__eventimgs{
+      height: 60vh;
+    width: 400px;
+}
+
+.__eventname{
+  font-size: 15px;
+  font-weight: 600;
+  margin-top:17%;
+}
+
+.__eventdtl{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.__eventd{
+  font-size: 12px;
+  margin-top:-10px;
+}
+
+
 /*footer*/
 .__foter{
   background-color: #0e1523;
@@ -1110,7 +1142,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .__footlogo{
-  width: 120px;
+  width: 50px;
 }
 
 .__fh{

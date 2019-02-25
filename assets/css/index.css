@@ -18,7 +18,9 @@
 
 @media screen and (max-width: 1199px){
    
-  
+  .__eventimgs {
+    width: 100%;
+  }
 
 }
 
@@ -44,7 +46,9 @@
 
 @media screen and (max-width: 1024px){
 
-  
+  .__eventimgs {
+    width: 100%;
+  }
 
   
 
@@ -87,7 +91,10 @@
   .col-item .photo img {
     height: 222px;
   }
-  
+
+  .__eventimgs {
+    width: 100%;
+  }
 
 
 }
@@ -98,7 +105,14 @@
 
 @media screen and (max-width: 767px){
 
+  .__eventimgs {
+    height: 75vh;
+    width: 100%;
+  }
 
+  .__eventname {
+    margin-top: 5%;
+  }
   
 }
 
@@ -138,6 +152,11 @@
     .m-t-10p {
     margin-top: 39% !important;
     }
+
+  .__eventimgs {
+    height: 50vh;
+    width: 100%;
+  }
 
 }
 
